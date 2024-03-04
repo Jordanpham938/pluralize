@@ -2,7 +2,7 @@
 // a noun and count.
 function pluralize(noun, count) {
   // TODO: Implement this function.
-  const result = undefined;
+  const result = count === 1 ? `${count} ${noun}` : `${count} ${noun}s`;
   return result;
 }
 
